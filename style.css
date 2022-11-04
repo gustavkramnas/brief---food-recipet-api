@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./argon_miniartura1.jpeg);
+  text-align: center;
+  color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  text-decoration: underline;
+  font-size: 40px;
+  cursor: default;
+}
+.btn {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.h2 {
+  padding-top: 40px;
+  cursor: default;
+  font-size: 40px;
+}
+
+.h3 {
+  padding-top: 10px;
+  cursor: default;
+  font-size: 30px;
+}
+
+ul,
+li {
+  padding-top: 10px;
+  cursor: default;
+  font-style: italic;
+}
+
+footer {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  cursor: default;
+}
+
+@media screen and (max-width: 500px) {
+  .h1 {
+    font-size: 25px;
+  }
+
+  .h2 {
+    font-size: 30px;
+  }
+
+  .h3 {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h1 {
+    font-size: 28px;
+  }
+
+  .h2 {
+    font-size: 30px;
+  }
+
+  .h3 {
+    font-size: 27px;
+  }
+}
